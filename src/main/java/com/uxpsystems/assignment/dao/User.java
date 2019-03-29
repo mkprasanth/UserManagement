@@ -43,6 +43,14 @@ public class User {
 		this.status = status;
 	}
 
+	public User(long id,String username, String password, Status status) {
+		super();
+		this.id=id;
+		this.username = username;
+		this.password = password;
+		this.status = status;
+	}
+	
 	public long getId() {
 		return id;
 	}
